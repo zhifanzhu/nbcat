@@ -1,6 +1,6 @@
 # NBCAT
 
-`nbcat` is a self-contained command line tool for viewing jupyter notebook files in terminal. It parses notebook's underlying json content, hence it runs *without the dependency of jupyter/ipython core*. 
+`nbcat` is a command line tool for viewing jupyter notebook files in terminal. It parses notebook's underlying json content, hence it runs *without the dependency of jupyter/ipython core*. 
 
 ## Install
 
