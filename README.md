@@ -1,12 +1,15 @@
 # NBCAT
 
-`nbcat` is a self-contained command line tool for viewing jupyter notebook files in terminal. It parses notebook's underlying json content, hence it runs *without the dependency of jupyter/ipython core*.
+`nbcat` is a self-contained command line tool for viewing jupyter notebook files in terminal. It parses notebook's underlying json content, hence it runs *without the dependency of jupyter/ipython core*. 
 
 ## Install
 
 ```
 pip install git+https://github.com/ktw361/nbcat.git
 ```
+
+No python? Checkout the [c++ implementation](https://github.com/ktw361/jcat).
+
 
 ## Usage
 
@@ -59,6 +62,7 @@ nbcat example.ipynb
                  'truck']
 =========================================================================
 ```
+</details>
 
 * Running with `nbcat examples/example-cifar10.ipynb -a`:
 <details>
@@ -133,7 +137,7 @@ pip uninstall nbcat
 
 ## License
 
-Distributed uder the [Boost Software License](http://www.boost.org/users/license.html). 
+Distributed under the MIT LICENSE. 
 
 ## Acknoledgement
 
