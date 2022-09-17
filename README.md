@@ -17,52 +17,8 @@ No python? Checkout the [c++ implementation](https://github.com/ktw361/jcat).
 nbcat example.ipynb
 ```
 
-### Example notebook
-![nb](https://user-images.githubusercontent.com/23008175/83876521-91f03800-a76b-11ea-8269-28f864e1394a.png)
-
-
-* Running with `nbcat examples/example-cifar10.ipynb`:
-<details>
-    <summary> Output (click to expand)</summary>
-
-```
-                =========================================================================
-   `markdown`   # CIFAR - 10 
-                ## Decode data
-                =========================================================================
-   `markdown`   Activate virtual environment
-                =========================================================================
-        In [1]: %%bash
-                source ~/kerai/bin/activate
-                =========================================================================
-   `markdown`   ### Imports
-                =========================================================================
-        In [2]: %matplotlib inline
-                from helper import get_class_names, get_train_data, get_test_data, plot_images
-                -------------------------------------------------------------------------
-    `stderr`    Using TensorFlow backend.
-
-                =========================================================================
-   `markdown`   Get class names
-                =========================================================================
-        In [3]: class_names = get_class_names()
-                class_names
-                -------------------------------------------------------------------------
-    `stdout`    Decoding file: data/batches.meta
-
-        Out[3]: ['airplane',
-                 'automobile',
-                 'bird',
-                 'cat',
-                 'deer',
-                 'dog',
-                 'frog',
-                 'horse',
-                 'ship',
-                 'truck']
-=========================================================================
-```
-</details>
+### Example notebook ([link](https://github.com/ktw361/nbcat/blob/master/examples/example-cifar10.ipynb))
+![nb](https://user-images.githubusercontent.com/23008175/190876086-e53da30a-8f3f-40b7-83a4-5ff4fecafa4a.png)
 
 * Running with `nbcat examples/example-cifar10.ipynb -a`:
 <details>
@@ -122,11 +78,11 @@ Decoding file: data/batches.meta
 
 * output of `cat`:
 
-![grep_cat](https://user-images.githubusercontent.com/23008175/89075159-2237ab80-d3b0-11ea-8872-d3361705833c.png)
+![grep_cat](https://user-images.githubusercontent.com/23008175/190876201-4e929b48-d604-4761-aae1-c47753ab5ab6.png)
 
 * output of `nbcat':
 
-![grep_nbcat](https://user-images.githubusercontent.com/23008175/89075189-34b1e500-d3b0-11ea-8fcd-6289cae6da17.png)
+![grep_nbcat](https://user-images.githubusercontent.com/23008175/190876265-84a57e6c-8919-4970-9755-734dd78f86f9.png)
 
 
 ## Uninstall
