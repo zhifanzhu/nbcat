@@ -2,11 +2,25 @@
 
 `nbcat` is a self-contained command line tool for viewing jupyter notebook files in terminal. It parses notebook's underlying json content, hence it runs *without the dependency of jupyter/ipython core*.
 
+## Install
+
+```
+pip install git+https://github.com/ktw361/nbcat.git
+```
+
+## Usage
+
+```
+nbcat example.ipynb
+```
+
 ### Example notebook
 ![nb](https://user-images.githubusercontent.com/23008175/83876521-91f03800-a76b-11ea-8269-28f864e1394a.png)
 
 
 * Running with `nbcat examples/example-cifar10.ipynb`:
+<details>
+    <summary> Output (click to expand)</summary>
 
 ```
                 =========================================================================
@@ -99,26 +113,6 @@ Decoding file: data/batches.meta
 ```
 </details>
 
-## Prerequisites
-
-Most systems with `g++` and `make` installed should be fine.
-
-## Install
-
-```
-pip install git+https://github.com/ktw361/nbcat.git
-```
-
-## Usage
-
-```
-Usage: nbcat FILE [OPTION]
-
-FILE:	A json parsable notebook file (*.ipynb).
-
-OPTION:
-  -a:	Align prompt (In/Out) for copy.
-```
 
 ### Use nbcat with grep to get rid of annoying image datas
 
