@@ -1,0 +1,1 @@
+from .nbcat import app_main

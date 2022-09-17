@@ -1,0 +1,5 @@
+*.egg-info/
+**/__pycache__/
+.tags
+.vimrc
+.DS_Store
